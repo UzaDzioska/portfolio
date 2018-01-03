@@ -1,6 +1,9 @@
 body {
     background-image:url('bg-02-01-01.png');
     background-size: cover;
+}
+
+.container{
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }
@@ -13,22 +16,34 @@ body {
 p {
     font-family: Lato light;
     color: white;
+    text-align: center;
 }
 
 h1 {
     font-size: 1.5em;
     font-family: Lato light;
     color: white;
+    text-align: center;
 }
 
 a {
     font-family: Lato light;
     color: white;
+    text-align: center;
+    text-decoration-line: none;
+    display: block;
 }
 
 .pink {
+    display: grid;
     width: 1fr;
     height: 70vh;
     background-color: #D8BCBC;
     grid-column:4;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.nested {
+    grid-row: 2;
+    display: grid;
 }
