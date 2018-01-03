@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d8bcbc;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <image id="image" width="1536" height="1536" xlink:href="bg.jpg"/>
+  </defs>
+  <title>bg</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <use transform="scale(0.7103)" xlink:href="#image"/>
+    <use transform="translate(1461) scale(0.7103)" xlink:href="#image"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-1" x="1090.5" y="-0.5" width="370" height="1080"/>
+  </g>
+</svg>
