@@ -1,8 +1,25 @@
 body {
     background-image:url('bg-01.png');
+    background-size: cover;
 }
 
 #logo {
     width:56.92px;
     height:171.4px;
+}
+
+p {
+    font-family: Lato light;
+    color: white;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-family: Lato light;
+    color: white;
+}
+
+a {
+    font-family: Lato light;
+    color: white;
 }
