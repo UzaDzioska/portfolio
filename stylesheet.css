@@ -3,7 +3,6 @@ body {
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: auto;
 }
 
 #logo {
@@ -27,15 +26,9 @@ a {
     color: white;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns:1fr;
-  text-align: center;
-  justify-content: center;
-}
-
 .pink {
-    width: 374px;
-    height: 1080px;
-    color: #D8BCBC;
+    width: 1fr;
+    height: 70vh;
+    background-color: #D8BCBC;
+    grid-column:4;
 }
