@@ -1,6 +1,8 @@
 body {
     background-image:url('bg-02-01-01.png');
     background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .container{
@@ -36,11 +38,11 @@ a {
 
 .pink {
     display: grid;
-    width: 1fr;
-    height: 70vh;
+    height: 100vh;
     background-color: #D8BCBC;
     grid-column:4;
     grid-template-rows: repeat(3,1fr);
+    margin: none;
 }
 
 .nested {
