@@ -43,7 +43,6 @@ a {
     color: white;
     text-align: center;
     text-decoration-line: none;
-    display: block;
 }
 
 .pink {
@@ -60,7 +59,7 @@ a {
     display: grid;
 }
 
-.logos{
+.some{
     grid-row: 5;
     grid-template-columns: repeat(2,1fr);
     display: grid; 
@@ -121,7 +120,27 @@ a {
 
 .modal-body{
   padding:10px 20px;
-    grid-column: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.webd{
+    grid-column: 1;
+    grid-row: 1;
+}
+.anim{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.ux{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.vid{
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .modal-footer{
