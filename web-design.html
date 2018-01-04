@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>zuzanna dzialowska</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+          <svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.2551 94.5614" width="5vw" height="5vh">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>logo_2</title>
+  <path class="cls-1" d="M211.5308,318.1758s19.35-8.5124,24.3133-28.9044l-28.3122-5.301Z" transform="translate(-200.4756 -223.6144)"/>
+  <path class="cls-1" d="M236.9557,284.3893a65.0532,65.0532,0,0,0-.9085-24.7163l-23.3358,20.42Z" transform="translate(-200.4756 -223.6144)"/>
+  <polygon class="cls-1" points="6.418 54.893 29.184 34.948 3.574 31.146 6.418 54.893"/>
+  <path class="cls-1" d="M203.5064,249.5383l-3.0308-25.9239s26.9744,2.8489,34.1743,30.6661Z" transform="translate(-200.4756 -223.6144)"/>
+  <polygon class="cls-2" points="35.368 65.657 36.48 60.775 12.236 56.478 35.572 36.059 34.174 30.666 3.031 25.924 3.574 31.146 29.184 34.948 6.418 54.893 7.056 60.356 35.368 65.657"/>
+</svg>
+      </a>
+    </span>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">Web Design</a>
+    <a href="#">Animation</a>
+    <a href="#">UX</a>
+    <a href="#">Video</a>
+  </div>
+
+  <div id="main">
+    <h1>Responsive Side Menu</h1>
+  </div>
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+</body>
+</html>
