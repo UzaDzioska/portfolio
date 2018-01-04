@@ -49,3 +49,13 @@ a {
     grid-row: 2;
     display: grid;
 }
+
+.logos{
+    grid-row: 3;
+    grid-template-columns: repeat(2,1fr);
+    display: grid; 
+}
+
+.size{
+    
+}
