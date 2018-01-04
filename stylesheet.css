@@ -120,10 +120,13 @@ a {
 
 .modal-body{
   padding:10px 20px;
+}
+.links{
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    
 }
-
 .webd{
     grid-column: 1;
     grid-row: 1;
