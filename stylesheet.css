@@ -119,12 +119,16 @@ a {
 }
 
 .modal-body{
-  padding:10px 20px;
+  padding:5vw 10vh;
 }
+
 .links{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
     
 }
 .webd{
