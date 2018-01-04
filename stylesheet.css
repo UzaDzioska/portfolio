@@ -41,21 +41,26 @@ a {
     height: 100vh;
     background-color: #D8BCBC;
     grid-column:4;
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
     margin: none;
 }
 
 .nested {
-    grid-row: 2;
+    grid-row: 3;
     display: grid;
 }
 
 .logos{
-    grid-row: 3;
+    grid-row: 5;
     grid-template-columns: repeat(2,1fr);
     display: grid; 
 }
 
 .size{
-    
+    width: 3em;
+    height: 3em;
+}
+
+.copy{
+    grid-column: 1/3;
 }
