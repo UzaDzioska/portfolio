@@ -1,0 +1,143 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('coding.PNG');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('basic-mobile-website-01.png');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('responsive-web-side-01.png');
+  min-height:400px;
+}
+
+.pimg4{
+  background-image:url('redesigned-website-01.png');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+    background: #333;
+    color: white;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#D8BCBC;
+  color:#333;
+  padding:20px;
+}
+
+/*navigation styling*/
+#Layer_3{
+    padding: 1em;
+}
+
+.navbar{
+  background-color:#D8BCBC;
+  overflow:hidden;
+  height:10vh;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+    padding-top: 1em;
+  text-decoration:none;
+  font-size:1em;
+  color:#ccc;
+  display:block;
+  transition:0.3s;
+    text-align: center;
+    width: 100%;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  font-size:36px;
+    float: left;
+}
+
+/*button styling*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 3vh; 
+    right: 3vw;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #D8BCBC;
+    color: #333;
+    cursor: pointer;
+    padding: 1em;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: .75em;
+}
+
+#myBtn:hover {
+    background-color: white;
+}
+
+/*media queries*/
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3, .pimg4{
+    background-attachment:scroll;
+  }
+}
