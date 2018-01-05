@@ -179,6 +179,10 @@ a {
 /*also end of the index page styling*/
 
 /*beginning of the web design page*/
+#Layer_3{
+    padding: 1em;
+}
+
 .navbar{
   background-color:#D8BCBC;
   overflow:hidden;
@@ -195,7 +199,7 @@ a {
 }
 
 .navbar a:hover{
-  background-color:#ddd;
+  background-color:#D8BCBC;
   color:#000;
 }
 
@@ -214,12 +218,14 @@ a {
 }
 
 .side-nav a{
-  padding:10px 10px 10px 30px;
+    padding-top: 1em;
   text-decoration:none;
-  font-size:22px;
+  font-size:2em;
   color:#ccc;
   display:block;
   transition:0.3s;
+    text-align: center;
+    width: 100%;
 }
 
 .side-nav a:hover{
@@ -229,9 +235,8 @@ a {
 .side-nav .btn-close{
   position:absolute;
   top:0;
-  right:22px;
   font-size:36px;
-  margin-left:50px;
+    float: left;
 }
 
 #main{
