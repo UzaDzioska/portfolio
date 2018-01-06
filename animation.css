@@ -76,8 +76,14 @@ body, html{
 }
 
 /*navigation styling*/
+
+.burger{
+    padding: 1em;
+}
+
 #Layer_3{
     padding: 1em;
+    float: right;
 }
 
 .navbar{
