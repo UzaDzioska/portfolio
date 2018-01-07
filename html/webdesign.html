@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>zuzanna dzialowska</title>
+  <link rel="stylesheet" href="stylesheet-webdesign.css">
+</head>
+<body>
+    <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+          <svg class="burger" width="30" height="30">
+            <path d="M0,5 30,5" stroke="#333" stroke-width="3"/>
+            <path d="M0,14 30,14" stroke="#333" stroke-width="3"/>
+            <path d="M0,23 30,23" stroke="#333" stroke-width="3"/>
+        </svg>
+      </a>
+    </span>
+        <svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.2551 94.5614" width="7vw" height="6vh">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>logo_2</title>
+  <path class="cls-1" d="M211.5308,318.1758s19.35-8.5124,24.3133-28.9044l-28.3122-5.301Z" transform="translate(-200.4756 -223.6144)"/>
+  <path class="cls-1" d="M236.9557,284.3893a65.0532,65.0532,0,0,0-.9085-24.7163l-23.3358,20.42Z" transform="translate(-200.4756 -223.6144)"/>
+  <polygon class="cls-1" points="6.418 54.893 29.184 34.948 3.574 31.146 6.418 54.893"/>
+  <path class="cls-1" d="M203.5064,249.5383l-3.0308-25.9239s26.9744,2.8489,34.1743,30.6661Z" transform="translate(-200.4756 -223.6144)"/>
+  <polygon class="cls-2" points="35.368 65.657 36.48 60.775 12.236 56.478 35.572 36.059 34.174 30.666 3.031 25.924 3.574 31.146 29.184 34.948 6.418 54.893 7.056 60.356 35.368 65.657"/>
+</svg>
+      </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+   <a href="http://zuzannadzialowska.com/index.html" target="_blank">Home</a>
+    <a href="http://zuzannadzialowska.com/webdesign.html" target="_blank">Web Design</a>
+    <a href="http://zuzannadzialowska.com/animation.html" target="_blank">Animation</a>
+    <a href="http://zuzannadzialowska.com/ux.html" target="_blank">UX</a>
+    <a href="http://zuzannadzialowska.com/video.html" target="_blank">Video</a>
+  </div>
+    
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Web Design
+      </span>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2>Basic Mobile Website</h2>
+    <a href="http://zuzannadzialowska.com/kea/web-mobile/html/frontpage.html" target="_blank">Mobile Website</a>
+      
+      Design process:
+      <a href="http://ftp.zuzannadzialowska.com/moodboard.compressed.pdf" target="_blank">Initial Moodboard </a>
+      <a href="http://zuzannadzialowska.com/1.2.Project-Documentation_Zuzanna-Dzialowska.compressed.pdf" target="_blank">Project Document</a>
+  </section>
+
+  <div class="pimg2">
+  </div>
+
+  <section class="section">
+    <h2>Responsive Web Design</h2>
+    <a href="http://zuzannadzialowska.com/1.6.Responsive-website/html/naivism-responsive.html" target="_blank">Responsive Website</a>
+  </section>
+
+  <div class="pimg3">
+  </div>
+
+  <section class="section">
+    <h2>Basic Redesign</h2>
+    <a href="http://zuzannadzialowska.com/1.9.Responsive-redesign/redesigned%20website/index.html">Redesigned Website</a>
+      
+      Design process:
+      <a href="http://zuzannadzialowska.com/Collaborationagreement-redesign.pdf" target="_blank">Collaboration Agreement</a>
+      <a href="http://zuzannadzialowska.com/1.10.Tests-results-for-both.pdf" target="_blank">Test report</a>
+      <a href="http://zuzannadzialowska.com/Group-10-James-Bond-007-Museum.pdf" target="_blank">Presentation</a>
+ 
+  </section>
+    
+      <div class="pimg4">
+  </div>
+
+  <section class="section">
+    </section>
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Zuzanna Dzialowska
+      </span>
+    </div>
+  </div>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back</button>
+    
+      <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+          
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+          
+  </script>
+    
+</body>
+</html>

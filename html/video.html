@@ -5,17 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>zuzanna dzialowska</title>
-  <link rel="stylesheet" href="stylesheet-webdesign.css">
+  <link rel="stylesheet" href="video.css">
 </head>
 <body>
     <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
-          <svg class="burger" width="30" height="30">
+           <svg class="burger" width="30" height="30">
             <path d="M0,5 30,5" stroke="#333" stroke-width="3"/>
             <path d="M0,14 30,14" stroke="#333" stroke-width="3"/>
             <path d="M0,23 30,23" stroke="#333" stroke-width="3"/>
         </svg>
+          
       </a>
     </span>
         <svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.2551 94.5614" width="7vw" height="6vh">
@@ -41,7 +42,7 @@
 
   <div id="side-menu" class="side-nav">
     <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-   <a href="http://zuzannadzialowska.com/index.html" target="_blank">Home</a>
+    <a href="http://zuzannadzialowska.com/index.html" target="_blank">Home</a>
     <a href="http://zuzannadzialowska.com/webdesign.html" target="_blank">Web Design</a>
     <a href="http://zuzannadzialowska.com/animation.html" target="_blank">Animation</a>
     <a href="http://zuzannadzialowska.com/ux.html" target="_blank">UX</a>
@@ -51,46 +52,45 @@
   <div class="pimg1">
     <div class="ptext">
       <span class="border">
-        Web Design
+        Video
       </span>
     </div>
   </div>
 
   <section class="section">
-    <h2>Basic Mobile Website</h2>
-    <a href="#">Mobile Website</a>
+    <h2>The Busiest Bee</h2>
+      
+       <button id="modalBtn" class="button">Video</button>
+      
+        <div id="simpleModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+      </div>
+      <div class="modal-body">
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/es-HNcjYqwQ?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          
+              </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+    
   </section>
 
   <div class="pimg2">
   </div>
 
   <section class="section">
-    <h2>Responsive Web Design</h2>
-    <a href="#">Responsive Website</a>
+    <h2>CPH Dare</h2>
+    <a href="http://mihaelsandro.com/kea/video/" target="_blank">Website</a>
   </section>
 
   <div class="pimg3">
   </div>
 
   <section class="section">
-    <h2>Basic Redesign</h2>
-           <a href="#">Collaboration Agreement</a>
-      <a href="#">Test report</a>
-      <a href="#">Presentation</a>
-    <a href="#">Redesigned Website</a>
- 
-  </section>
-    
-      <div class="pimg4">
-  </div>
-
-  <section class="section">
-    <h2>Other</h2>
-      <h3>Content and communication</h3>
-      <a href="#">Moodboard</a>
-      <a href="#">Project Document</a>
-      <h3>User Interface Design</h3>
-      <a href="#">Design and Process Document</a>
   </section>
 
   <div class="pimg1">
@@ -127,6 +127,36 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+}
+          
+        var modal = document.getElementById('simpleModal');
+// Get open modal button
+var modalBtn = document.getElementById('modalBtn');
+// Get close button
+var closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+// Listen for open click
+modalBtn.addEventListener('click', openModal);
+// Listen for close click
+closeBtn.addEventListener('click', closeModal);
+// Listen for outside click
+window.addEventListener('click', outsideClick);
+
+// Function to open modal
+function openModal(){
+  modal.style.display = 'block';
+}
+
+// Function to close modal
+function closeModal(){
+  modal.style.display = 'none';
+}
+
+// Function to close modal if outside click
+function outsideClick(e){
+  if(e.target == modal){
+    modal.style.display = 'none';
+  }
 }
           
   </script>

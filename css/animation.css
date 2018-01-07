@@ -22,22 +22,27 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('coding.PNG');
+  background-image:url('../img/main.gif');
   min-height:100%;
 }
 
 .pimg2{
-  background-image:url('basic-mobile-website-01.png');
+  background-image:url('../img/2batman.gif');
   min-height:25em;
 }
 
 .pimg3{
-  background-image:url('responsive-web-side-01.png');
+  background-image:url('../img/walk.gif');
   min-height:25em;
 }
 
 .pimg4{
-  background-image:url('redesigned-website-01.png');
+  background-image:url('../img/Group%202_Animated-poster.gif');
+  min-height:25em;
+}
+
+.pimg5{
+  background-image:url('../img/calculator.png');
   min-height:25em;
 }
 
