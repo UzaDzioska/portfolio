@@ -52,7 +52,6 @@ a {
     background-color: #D8BCBC;
     grid-column:4;
     grid-template-rows: repeat(5,1fr);
-    margin: none;
 }
 
 .nested {
@@ -176,4 +175,44 @@ a {
   to {opacity: 1}
 }
 /*end of modal territory*/
+
+/*media queries*/
+@media(max-width:568px){
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#logo {
+    padding: .5vh .5vh;
+    width: 7vw;
+    height 6vh;
+    grid-row:1;  
+}
+    .responsive{
+        grid-template-rows: repeat(2,1fr);
+        grid-column: 1;
+    }
+
+.pic{
+   
+    grid-row:2;
+}
+
+#portrait{
+    width: 60vw;
+    height: auto;
+}
+
+    .links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    font-size: 1em;
+    text-align: center;
+    padding: .2em;
+    
+}
+
 

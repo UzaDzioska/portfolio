@@ -258,4 +258,16 @@ body, html{
   .pimg1, .pimg2, .pimg3, .pimg4{
     background-attachment:scroll;
   }
+    
+    .ptext{
+        font-size:1.25em;
+    }
+    
+    .ptext .border{
+        padding:.25em;
+    }
+    
+    p{
+        text-align: justify;
+    }
 }

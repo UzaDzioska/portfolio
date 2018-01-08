@@ -245,10 +245,33 @@ body, html{
 }
 /*end of modal territory*/
 
+.invisible{
+    display:none;
+}
 
 /*media queries*/
 @media(max-width:568px){
   .pimg1, .pimg2, .pimg3, .pimg4{
     background-attachment:scroll;
   }
+    
+    .ptext{
+        font-size:1.25em;
+    }
+    
+    .ptext .border{
+        padding:.25em;
+    }
+    
+    p{
+        text-align: justify;
+    }
+    
+    .invisible{
+        display:block;
+    }
+    
+    iframe{
+        display:none;
+    }
 }

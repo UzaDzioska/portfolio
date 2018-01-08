@@ -1,7 +1,7 @@
 body, html{
   height:100%;
   margin:0;
-  font-size:16px;
+  font-size:1em;
   font-family:"Lato", sans-serif;
   font-weight:400;
   line-height:1.8em;
@@ -22,28 +22,28 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('coding.PNG');
+  background-image:url('../img/coding.PNG');
   min-height:100%;
 }
 
 .pimg2{
-  background-image:url('basic-mobile-website-01.png');
-  min-height:400px;
+  background-image:url('../img/basic-mobile-website-01.png');
+  min-height:25em;
 }
 
 .pimg3{
-  background-image:url('responsive-web-side-01.png');
-  min-height:400px;
+  background-image:url('../img/responsive-web-side-01.png');
+  min-height:25em;
 }
 
 .pimg4{
-  background-image:url('redesigned-website-01.png');
-  min-height:400px;
+  background-image:url('../img/redesigned-website-01.png');
+  min-height:25em;
 }
 
 .section{
   text-align:center;
-  padding:50px 80px;
+  padding:3.125em 5em;
     background: #333;
     color: white;
 }
@@ -64,15 +64,15 @@ body, html{
   width:100%;
   text-align:center;
   color:#000;
-  font-size:27px;
-  letter-spacing:8px;
+  font-size:1.75em;
+  letter-spacing:.25em;
   text-transform:uppercase;
 }
 
 .ptext .border{
   background-color:#D8BCBC;
   color:#333;
-  padding:20px;
+  padding:1.25em;
 }
 
 /*navigation styling*/
@@ -102,7 +102,7 @@ body, html{
   background-color:#111;
   opacity:0.9;
   overflow-x:hidden;
-  padding-top:60px;
+  padding-top:3.75em;
   transition:0.5s;
 }
 
@@ -124,7 +124,7 @@ body, html{
 .side-nav .btn-close{
   position:absolute;
   top:0;
-  font-size:36px;
+  font-size:2.25em;
     float: left;
 }
 
@@ -157,4 +157,16 @@ body, html{
   .pimg1, .pimg2, .pimg3, .pimg4{
     background-attachment:scroll;
   }
+    
+    .ptext{
+        font-size:1.25em;
+    }
+    
+    .ptext .border{
+        padding:.25em;
+    }
+    
+    p{
+        text-align: justify;
+    }
 }
